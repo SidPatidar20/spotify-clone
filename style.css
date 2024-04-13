@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+    margin-top: 0; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 48px;
+    margin-top: auto;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}       
+.brand img{
+    width: 34px;
+    padding: 0 8px;
+} 
+ .brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+} 
+ .container{
+    min-height: 65vh;   
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif ;
+    display: flex;
+    margin: 15px auto;
+    width: 75%;     
+    border-radius: 10px;    
+    padding: 30px;
+    background-image: url('BG-img\ \(2\).jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#main{
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+.bottom{
+    position: sticky;
+    height: 69px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top:8px;
+}
+.icons i{
+    cursor: pointer;
+    
+} 
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 40px
+}
+.songItem{
+  height: 30px;
+  display: flex;
+  background-color: white;
+  /* width: 95%; */
+  color: black;
+  margin: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+.songItem img{
+  width: 23px;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+.timestamp{
+    margin: 0 3px;
+}
+.songItem span{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+ position: absolute;
+ left: 9.5vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
